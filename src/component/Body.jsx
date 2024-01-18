@@ -48,7 +48,7 @@ function Body(props) {
             onChange={handleOnChange}
             style={{
               backgroundColor: props.mode === "light" ? "white" : "white",
-              color: props.mode === "dark" ? "white" : "black",
+              color:"black",
             }}
             id="myBox"
             rows="8"
